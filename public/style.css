@@ -1,0 +1,10 @@
+body {
+    background-color: rgba(30, 30, 30);
+    background-image: linear-gradient(rgba(8, 8, 8, 0.6), rgba(8, 8, 8, 0.469)),
+      url(./pexels-ricardo-esquivel-1907786.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: scroll;
+    height: 100%;
+  }
+  

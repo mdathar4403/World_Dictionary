@@ -1,0 +1,41 @@
+.Dictionary h2 {
+  color: rgb(225, 194, 154);
+  font-size: 50px;
+  font-family: "Cormorant Garamond", serif;
+}
+.Dictionary p{
+  color: #C6EBC5 ;
+}
+/* #B6E388  --- deep green */
+/* #C6EBC5 ---light green */
+.Dictionary section {
+  /* border: 1px solid #20212433; */
+  background-color: rgba(30, 30, 30, 0.63);
+  border: 0.2px solid rgba(223, 129, 34, 0.762);
+  box-shadow: 0 2px 4px rgba(249, 136, 23, 0.669);
+  border-radius: 3px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 10px;
+  max-width: 950px;
+}
+
+.Dictionary ol {
+  padding: 0 !important;
+}
+
+@media (max-width: 420px) {
+  .Dictionary h2 {
+    font-size: 48px;
+  }
+
+  .Dictionary section {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 330px) {
+  .Dictionary h2 {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,17 @@
+.Synonyms {
+  font-size: 16px;
+}
+.Synonyms em {
+  color: rgb(225, 194, 154);
+}
+
+.Synonyms .synonym-box {
+  background-color: rgba(231, 215, 194, 0.352);
+  color: white;
+  border-radius: 30px;
+  padding: 0px 10px;
+  margin-right: 7px;
+  text-align: center;
+  height: 26px;
+  line-height: 1.5;
+}

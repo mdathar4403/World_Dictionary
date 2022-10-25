@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./css/App.css";
+import Search from "./component/Search";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <h1>Dictionary</h1>
+        </header>
+        <Search default="words" />
+        <footer className="App-footer">
+          <section>
+            <span>
+              <a
+                href="https://github.com/mdathar4403/World_Dictionary"
+                target="_blank"
+              >
+                Github Repo
+              </a> project coded by  <a
+                href="https://6356e9f290d8b414e5106dd0--rad-sprite-19a8f4.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Md Athar - IIT VARANASI
+              </a>
+            </span>
+          </section>
+        </footer>
+      </div>
     </div>
   );
 }

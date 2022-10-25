@@ -1,0 +1,75 @@
+.App {
+  font-family: "Fira Sans", sans-serif;
+}
+.App-header {
+  margin: 100px 0 30px 0;
+}
+/* #B6E388  --- deep green */
+/* #C6EBC5 ---light green */
+.App-header h1 {
+  color: #EFD345 ;
+  font-size: 85px;
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 900;
+}
+
+.App footer section {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 950px;
+}
+
+.App-footer {
+  color: rgb(231, 215, 194);
+  text-align: center;
+}
+
+.App-footer span {
+  background-color: rgba(39, 39, 39, 0.6);
+}
+
+.App-footer a {
+  text-decoration: none;
+  color: #C6EBC5;
+}
+
+.App-footer a:hover {
+  text-decoration: underline;
+  color: #B6E388;
+}
+
+@media (max-width: 1200px) {
+  .App-header {
+    margin: 110px 0 30px 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .App-header {
+    margin: 90px 0 30px 0;
+  }
+}
+@media (max-width: 500px) {
+  .App-header {
+    margin: 80px 0 30px 0;
+  }
+}
+@media (max-width: 420px) {
+  .App-header {
+    margin: 65px 0 30px 0;
+  }
+
+  .App-header h1 {
+    font-size: 65px;
+  }
+}
+@media (max-width: 330px) {
+  .App-header {
+    margin: 50px 0 30px 0;
+  }
+  .App-header h1 {
+    font-size: 54px;
+  }
+}
